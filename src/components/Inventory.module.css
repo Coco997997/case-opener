@@ -1,0 +1,109 @@
+.bg {
+  position: fixed;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: #000c;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  background: #232d3e;
+  border-radius: 20px;
+  box-shadow: 0 0 40px #000d;
+  padding: 36px 34px 28px 34px;
+  min-width: 450px;
+  min-height: 220px;
+  position: relative;
+  text-align: center;
+  max-width: 95vw;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+.close {
+  position: absolute;
+  top: 10px; right: 14px;
+  background: none;
+  border: none;
+  color: #ffb800;
+  font-size: 2.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.sellBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222a39;
+  border-radius: 8px;
+  padding: 6px 15px;
+  margin-bottom: 12px;
+  font-size: 1.10rem;
+}
+.sellAll {
+  background: #ffb800;
+  color: #232d3e;
+  border: none;
+  border-radius: 14px;
+  padding: 5px 22px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.empty {
+  padding: 30px 0;
+  color: #8fa7cd;
+}
+.list {
+  max-height: 320px;
+  overflow-y: auto;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.item {
+  background: #1b232c;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 5px 14px 5px 9px;
+  box-shadow: 0 2px 9px #0002;
+}
+.item img {
+  width: 48px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 5px;
+  background: #222a39;
+}
+.info {
+  flex: 1;
+  text-align: left;
+}
+.name {
+  font-size: 1.04rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 2px;
+}
+.price {
+  color: #ffb800;
+  font-size: 0.99rem;
+}
+.sell {
+  background: #bb65ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.93rem;
+  padding: 7px 16px;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.sell:hover {
+  background: #a052e0;
+}

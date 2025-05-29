@@ -1,0 +1,49 @@
+.menu {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.72); /* półprzezroczysty czarny */
+  border-radius: 8px;
+  z-index: 1000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Niech overlay jest nad całą kafelką */
+}
+
+.header {
+  display: flex;
+  gap: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.96;
+  margin-bottom: 2px;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 0;
+}
+
+.short {
+  min-width: 25px;
+  color: #9eeafc;
+  font-weight: 600;
+}
+
+.price {
+  color: #6cdfff;
+  min-width: 70px;
+  font-weight: 500;
+}
