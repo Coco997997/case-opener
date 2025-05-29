@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/coco997997.github.io/case-opener/static/css/main.c33ee722.css",
+    "main.js": "/coco997997.github.io/case-opener/static/js/main.9c0e2458.js",
+    "index.html": "/coco997997.github.io/case-opener/index.html",
+    "main.c33ee722.css.map": "/coco997997.github.io/case-opener/static/css/main.c33ee722.css.map",
+    "main.9c0e2458.js.map": "/coco997997.github.io/case-opener/static/js/main.9c0e2458.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c33ee722.css",
+    "static/js/main.9c0e2458.js"
+  ]
+}
